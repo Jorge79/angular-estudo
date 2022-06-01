@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
@@ -15,7 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MeuPrimeiro2Component,
     DataBindingComponent,
   ],
-  imports: [BrowserModule, CursosModule, NgbModule],
+  imports: [BrowserModule, CursosModule, NgbModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
