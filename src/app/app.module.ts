@@ -8,6 +8,8 @@ import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosModule } from './cursos/cursos.module';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InputPropertyComponent } from './input-property/input-property.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MeuPrimeiroComponent,
     MeuPrimeiro2Component,
     DataBindingComponent,
+    InputPropertyComponent,
+    OutputPropertyComponent,
   ],
   imports: [BrowserModule, CursosModule, NgbModule, FormsModule],
   providers: [],
